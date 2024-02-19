@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap'); */
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../../fonts/FiraCode-VariableFont_wght.ttf') format('woff2');
+  }
 
 html{
     font: 12px/1.5 'Fira Code', Arial, Helvetica, sans-serif;
@@ -21,7 +26,18 @@ body, table, input{
 }
 
 a{
-    color: #369;
+    /* color: #369; */
+    /* color: white; */
+    background: linear-gradient(to right, rgb(254, 0, 0.5), 
+    rgb(255, 0, 251, 0.5), 
+    /* rgba(35, 1, 255, 0.5), */
+    rgba(0, 255, 251, 0.5),
+    rgba(0, 255, 0, 0.5),
+    rgba(255, 255, 0, 0.5),
+    rgba(255, 0, 0, 0.5));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 h1, h2, h3, h4, h5, h6{

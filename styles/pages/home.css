@@ -22,14 +22,16 @@
 }
 
 .presentation header h2 {
-    color: #4D5BCE;
+    color: #43D9AD;
     font-size: 1.8em;
+    opacity: 0.7;
 }
 
 .presentation header h2::before {
     display: inline-block;
     content: '>';
     padding-right: 1em;
+    color: #4D5BCE;
 }
 
 .presentation p a {
@@ -42,6 +44,7 @@
 
 .presentation .comment { 
     color: #607B96;
+    padding-top: 5em;
 }
 
 .presentation .clr-variable-type {
@@ -53,27 +56,17 @@
 }
 
 .presentation .clr-variable-value {
-    color: #E99287;
+    /* color: #E99287; */
+    background: linear-gradient(to right, rgb(254, 0, 0.9), 
+    rgb(255, 0, 251, 0.9), 
+    rgba(0, 255, 251, 0.9),
+    rgba(0, 255, 0, 0.9),
+    rgba(255, 255, 0, 0.9),
+    rgba(255, 0, 0, 0.9));
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
-.text-hide {
-    width: 30em;
-    margin-top: 2em;
-    position: relative;
-}
-
-.text-hide:after { 
-    display: block;
-    content: '';
-    height: 10em;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-image: 
-        linear-gradient(
-            180deg in srgb, 
-            rgba(1, 22, 39, 0) 0%, 
-            rgba(1, 22, 39, 0.8) 80%
-        );
-}
