@@ -1,8 +1,12 @@
-.site-content-skills p svg {
-    display: inline;
-    width: 1.5em;
-    fill: #fff;
-    padding-top: 0.3em;
-    font-size: 20px;
+.site-content-skills .skills {
+    display: flex;
+    gap: 5em;
     opacity: 0.8;
+}
+
+.site-content-skills .skills span {
+    display: inline-block;
+    margin-bottom: 1em;
+    font-size: 20px;
+    border-bottom: 1px solid #5ffef1;
 }

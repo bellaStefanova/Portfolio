@@ -1,0 +1,5 @@
+.site-content-projects ul li a:before{
+    display: inline;
+    content: ">";
+    padding-right: 1em;
+}

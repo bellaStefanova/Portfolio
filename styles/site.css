@@ -7,15 +7,11 @@
 @import url('site/site-header.css');
 @import url('site/site-footer.css');
 
-/* @import url('elements/buttons.css');
-@import url('elements/forms.css');
-@import url('elements/tables.css'); */
-
 @import url('components/navigation.css');
 @import url('components/socials.css');
 
 @import url('pages/index.css');
 @import url('pages/about.css');
-@import url('pages/page.css');
 @import url('pages/links.css');
 @import url('pages/skills.css');
+@import url('pages/projects.css');
