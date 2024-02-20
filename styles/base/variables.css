@@ -2,4 +2,11 @@
     --clr-border-layout: #1E2D3D;
     --clr-body-bgrd: #010C15;
     --clr-site-bgrd: #011627;
+    --clr-text-gradient: linear-gradient(to right, 
+                        rgb(254, 0, 0.9), 
+                        rgb(255, 0, 251, 0.9), 
+                        rgba(0, 255, 251, 0.9),
+                        rgba(0, 255, 0, 0.9),
+                        rgba(255, 255, 0, 0.9),
+                        rgba(255, 0, 0, 0.9));
 }

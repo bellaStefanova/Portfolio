@@ -1,0 +1,56 @@
+
+.site-content-index p {
+    padding: 0;
+}
+
+.site-content-index header {
+    padding-bottom: 2em;
+}
+
+.site-content-index header p {
+    padding: 0;
+    opacity: 0.8;
+}
+
+.site-content-index header h1 {
+    line-height: 1.1;
+    margin: 0.2rem 0 0.2rem -0.06em;
+}
+
+.site-content-index header h2 {
+    color: #43D9AD;
+    font-size: 1.8em;
+    opacity: 0.7;
+}
+
+.site-content-index header h2::before {
+    display: inline-block;
+    content: '>';
+    padding-right: 1em;
+    color: #4D5BCE;
+}
+
+.site-content-index .comment { 
+    color: #607B96;
+    padding-top: 4em;
+}
+
+.site-content-index .clr-variable-type {
+    color: #4D5BCE;
+}
+
+.site-content-index .clr-variable-name {
+    color: #43D9AD;
+}
+
+.site-content-index .clr-variable-value {
+    background: var(--clr-text-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+
+

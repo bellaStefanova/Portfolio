@@ -1,0 +1,10 @@
+.site-content-about{
+    gap: 0;
+    justify-content: center;
+    padding-bottom: 0;
+    padding-right: 5em;
+}
+
+.site-content-about p:last-of-type {
+    padding-bottom: 0;
+}
