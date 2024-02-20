@@ -3,26 +3,26 @@
     justify-content: space-between;
     border-bottom: 1px solid var(--clr-border-layout);
     position: relative;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
-.site-header .site-title {
+/* .site-header .site-title {
     line-height: 1;
     display: flex;
     align-items: center;
-}
+} */
 
-.site-header .site-title a{
+/* .site-header .site-title a{
     display: block;
     text-decoration: none;
     padding: 0.8em 1em;
     padding-right: 5em;
-}
+} */
 
 
-.site-header .site-title p {
+/* .site-header .site-title p {
     padding: 0;
-}
+} */
 
 .site-header .main-nav {
     flex-grow: 1;
