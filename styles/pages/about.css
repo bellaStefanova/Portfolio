@@ -8,3 +8,8 @@
 .site-content-about p:last-of-type {
     padding-bottom: 0;
 }
+
+.site-content-about p{
+    opacity: 0.8;
+}
+
